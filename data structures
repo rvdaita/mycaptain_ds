@@ -1,0 +1,22 @@
+1. Assigning elements to different lists:
+   
+   list1 = ["hi",'hello',1234, True]
+   list2 = [12345, False, "bye"]
+   list3 = list1 + list2
+   print(list3)
+   
+2. Accessing elements from a tuple
+   
+   tuple = (True, 'hello' , 34 , [1,2,3])
+   print(tuple[3])
+   
+3. Deleting different dictionary elements:
+   
+   dictionary = { 
+    'key1': 123,
+    'key2': True,
+    'key3': "hello"
+    }
+   dictionary.pop('key1')
+   print(dictionary)
+   
